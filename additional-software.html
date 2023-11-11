@@ -1,0 +1,566 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Topic Listing Page</title>
+
+        <!-- CSS FILES -->        
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+                        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/templatemo-topic-listing.css" rel="stylesheet">      
+
+
+    </head>
+    
+    <body class="topics-listing-page" id="top">
+
+        <main>
+
+             <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <i class="bi-back"></i>
+                        <span>Logo</span>
+                    </a>
+
+                    <div class="d-lg-none ms-auto me-4">
+                        <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+                    </div>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-lg-5 me-lg-auto">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#home">Home</a>
+                                <li class="nav-item">
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link click-scroll" href="#section_2">Softwars</a>
+                                </li>
+                            
+                               
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_3">Services</a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_4">FAQs</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_5">Contact</a>
+                            </li>
+                             <li class="nav-item">
+                                <a class="nav-link click-scroll" href="contact.html">Contact From</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+
+            <header class="site-header d-flex flex-column justify-content-center align-items-center">
+                <div class="container">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-5 col-12">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="index.html">Homepage</a></li>
+
+                                    <li class="breadcrumb-item active" aria-current="page">Software Listing</li>
+                                </ol>
+                            </nav>
+
+                            <h2 class="text-white">Software Listing</h2>
+                        </div>
+
+                    </div>
+                </div>
+            </header>
+
+
+            <section class="section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <!-- <div class="col-lg-12 col-12 text-center">
+                            <h3 class="mb-4">Softwares</h3>
+                        </div> -->
+
+                          <div class="container-fluid">
+    <div class="row">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="design-tab" data-bs-toggle="tab" data-bs-target="#design-tab-pane" type="button" role="tab" aria-controls="design-tab-pane" aria-selected="true">
+                    <i class="bi bi-calendar"></i> Reservation Management and Guest Experience
+                </button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing-tab-pane" type="button" role="tab" aria-controls="marketing-tab-pane" aria-selected="false">
+                    <i class="bi bi-currency-dollar"></i> Financial Operations and Guest Relations
+                </button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="finance-tab" data-bs-toggle="tab" data-bs-target="#finance-tab-pane" type="button" role="tab" aria-controls="finance-tab-pane" aria-selected="false">
+                    <i class="bi bi-gear"></i> Operational Efficiency and Analytics
+                </button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="music-tab" data-bs-toggle="tab" data-bs-target="#music-tab-pane" type="button" role="tab" aria-controls="music-tab-pane" aria-selected="false">
+                    <i class="bi bi-building"></i> Multi-Property Support and Connectivity
+                </button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="security-tab" data-bs-toggle="tab" data-bs-target="#security-tab-pane" type="button" role="tab" aria-controls="security-tab-pane" aria-selected="false">
+                    <i class="bi bi-shield"></i> Security
+                </button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="training-tab" data-bs-toggle="tab" data-bs-target="#training-tab-pane" type="button" role="tab" aria-controls="training-tab-pane" aria-selected="false">
+                    <i class="bi bi-person-check"></i> Training
+                </button>
+            </li>
+        </ul>
+        
+    </div>
+</div>
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="design-tab-pane" role="tabpanel" aria-labelledby="design-tab" tabindex="0">
+                                    <div class="row">
+                                  
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+    <div class="custom-block bg-white shadow-lg">
+        <a href="#">
+            <div class="d-flex">
+                <div>
+                    <h5 class="mb-2">Reservation Management</h5>
+                    <p class="mb-0">Efficient handling of room reservations with an intuitive and user-friendly interface.</p>
+                </div>
+                <span class="badge bg-design rounded-pill ms-auto">14</span>
+            </div>
+            <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
+        </a>
+    </div>
+                                            </div>
+
+
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+    <div class="custom-block bg-white shadow-lg">
+        <a href="#">
+            <div class="d-flex">
+                <div>
+                    <h5 class="mb-2">Billing and Invoicing</h5>
+                    <p class="mb-0">Automated billing and invoicing system to streamline financial transactions.</p>
+                </div>
+                <span class="badge bg-design rounded-pill ms-auto">15</span>
+            </div>
+            <img src="images/topics/undraw_Billing_re_g1ue.png" class="custom-block-image img-fluid" alt="">
+        </a>
+    </div>
+</div>
+
+<div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+    <div class="custom-block bg-white shadow-lg">
+        <a href="#">
+            <div class="d-flex">
+                <div>
+                    <h5 class="mb-2">Guest Profile Management</h5>
+                    <p class="mb-0">Comprehensive guest profiles with details on preferences, history, and special requests.</p>
+                </div>
+                <span class="badge bg-design rounded-pill ms-auto">16</span>
+            </div>
+            <img src="images/topics/undraw_Guest_profile_re_hc4h.png" class="custom-block-image img-fluid" alt="">
+        </a>
+    </div>
+</div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="marketing-tab-pane" role="tabpanel" aria-labelledby="marketing-tab" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                                <div class="custom-block bg-white shadow-lg">
+                                                    <a href="#">
+                                                        <div class="d-flex">
+                                                            <div>
+                                                                <h5 class="mb-2">Mobile Check-In/Check-Out:</h5>
+
+                                                                <p class="mb-0">Convenient mobile check-in and check-out options for guests on the go.</p>
+                                                            </div>
+
+                                                            <span class="badge bg-advertising rounded-pill ms-auto">30</span>
+                                                        </div>
+
+                                                        <img src="images/topics/undraw_online_ad_re_ol62.png" class="custom-block-image img-fluid" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                                <div class="custom-block bg-white shadow-lg">
+                                                    <a href="#">
+                                                        <div class="d-flex">
+                                                            <div>
+                                                                <h5 class="mb-2">Smart Room Controls:</h5>
+
+                                                                <p class="mb-0">Integration of smart technology for guests to control room settings easily.</p>
+                                                            </div>
+
+                                                            <span class="badge bg-advertising rounded-pill ms-auto">65</span>
+                                                        </div>
+
+                                                        <img src="images/topics/undraw_Group_video_re_btu7.png" class="custom-block-image img-fluid" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-4 col-md-6 col-12">
+                                                <div class="custom-block bg-white shadow-lg">
+                                                    <a href="#">
+                                                        <div class="d-flex">
+                                                            <div>
+                                                                <h5 class="mb-2">Inventory Management:</h5>
+
+                                                                <p class="mb-0">Real-time tracking and management of hotel inventory, including rooms and amenities.
+Reporting and Analytics:</p>
+                                                            </div>
+
+                                                            <span class="badge bg-advertising rounded-pill ms-auto">50</span>
+                                                        </div>
+
+                                                        <img src="images/topics/undraw_viral_tweet_gndb.png" class="custom-block-image img-fluid" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                  </div>
+
+                                <div class="tab-pane fade" id="finance-tab-pane" role="tabpanel" aria-labelledby="finance-tab" tabindex="0">   <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                <a href="#">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Multi-Property Support:</h5>
+
+                                                            <p class="mb-0">Capability to manage and monitor multiple hotel properties from a centralized system</p>
+                                                        </div>
+
+                                                        <span class="badge bg-finance rounded-pill ms-auto">30</span>
+                                                    </div>
+
+                                                    <img src="images/topics/undraw_Finance_re_gnv2.png" class="custom-block-image img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6 col-12">
+                                            <div class="custom-block custom-block-overlay">
+                                                <div class="d-flex flex-column h-100">
+                                                    <img src="images/businesswoman-using-tablet-analysis-graph-company-finance-strategy-statistics-success-concept-planning-future-office-room.jpg" class="custom-block-image img-fluid" alt="">
+
+                                                    <div class="custom-block-overlay-text d-flex">
+                                                        <div>
+                                                            <h5 class="text-white mb-2">Channel Management:</h5>
+
+                                                            <p class="text-white">Integration with online booking channels to manage reservations and availability.</p>
+
+                                                            <a href="#" class="btn custom-btn mt-2 mt-lg-3">Learn More</a>
+                                                        </div>
+
+                                                        <span class="badge bg-finance rounded-pill ms-auto">25</span>
+                                                    </div>
+
+                                                    <div class="social-share d-flex">
+                                                        <p class="text-white me-4">Share:</p>
+
+                                                        <ul class="social-icon">
+                                                            <li class="social-icon-item">
+                                                                <a href="#" class="social-icon-link bi-twitter"></a>
+                                                            </li>
+
+                                                            <li class="social-icon-item">
+                                                                <a href="#" class="social-icon-link bi-facebook"></a>
+                                                            </li>
+
+                                                            <li class="social-icon-item">
+                                                                <a href="#" class="social-icon-link bi-pinterest"></a>
+                                                            </li>
+                                                        </ul>
+
+                                                        <a href="#" class="custom-icon bi-bookmark ms-auto"></a>
+                                                    </div>
+
+                                                    <div class="section-overlay"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                              <div class="tab-pane fade" id="music-tab-pane" role="tabpanel" aria-labelledby="music-tab" tabindex="0">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+            <div class="custom-block bg-white shadow-lg">
+                <a href="#">
+                    <div class="d-flex">
+                        <div>
+                            <h5 class="mb-2">Staff Task Assignment</h5>
+                            <p class="mb-0">Efficient assignment and tracking of tasks for hotel staff to streamline operations.</p>
+                        </div>
+                        <span class="badge bg-music rounded-pill ms-auto">45</span>
+                    </div>
+                    <img src="images/topics/undraw_Task_assignment_re_m2c0.png" class="custom-block-image img-fluid" alt="">
+                </a>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+            <div class="custom-block bg-white shadow-lg">
+                <a href="#">
+                    <div class="d-flex">
+                        <div>
+                            <h5 class="mb-2">Customer Relationship Management (CRM)</h5>
+                            <p class="mb-0">CRM tools for personalized guest interactions, loyalty programs, and feedback management.</p>
+                        </div>
+                        <span class="badge bg-music rounded-pill ms-auto">46</span>
+                    </div>
+                    <img src="images/topics/undraw_Customer_relationship_re_dsfv.png" class="custom-block-image img-fluid" alt="">
+                </a>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+            <div class="custom-block bg-white shadow-lg">
+                <a href="#">
+                    <div class="d-flex">
+                        <div>
+                            <h5 class="mb-2">Security and Compliance</h5>
+                            <p class="mb-0">Robust security features and compliance with industry standards to protect guest data.</p>
+                        </div>
+                        <span class="badge bg-music rounded-pill ms-auto">47</span>
+                    </div>
+                    <img src="images/topics/undraw_Security_re_ob7f.png" class="custom-block-image img-fluid" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                               <div class="tab-pane fade" id="education-tab-pane" role="tabpanel" aria-labelledby="education-tab" tabindex="0">
+    <div class="row">
+
+        <div class="col-lg-6 col-md-6 col-12">
+            <div class="custom-block bg-white shadow-lg">
+                <a href="#">
+                    <div class="d-flex">
+                        <div>
+                            <h5 class="mb-2">Automated Communication</h5>
+                            <p class="mb-0">Automated communication tools for sending confirmations, alerts, and promotional messages.</p>
+                        </div>
+                        <span class="badge bg-education rounded-pill ms-auto">49</span>
+                    </div>
+                    <img src="images/topics/undraw_Communication_re_b5pm.png" class="custom-block-image img-fluid" alt="">
+                </a>
+            </div>
+        </div>
+
+        <!-- Integration with Third-Party Services -->
+        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+            <div class="custom-block bg-white shadow-lg">
+                <a href="#">
+                    <div class="d-flex">
+                        <div>
+                            <h5 class="mb-2">Integration with Third-Party Services</h5>
+                            <p class="mb-0">Seamless integration with external services such as payment gateways, POS systems, and more.</p>
+                        </div>
+                        <span class="badge bg-education rounded-pill ms-auto">50</span>
+                    </div>
+                    <img src="images/topics/undraw_Integration_re_k5mr.png" class="custom-block-image img-fluid" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+                            </div>
+
+                    </div>
+                </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="section-padding section-bg">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12">
+                            <h3 class="mb-4">Trending Softwares</h3>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-12 mt-3 mb-4 mb-lg-0">
+                            <div class="custom-block bg-white shadow-lg">
+                                <a href="#">
+                                    <div class="d-flex">
+                                        <div>
+                                            <h5 class="mb-2">Channel Management:</h5>
+
+                                            <p class="mb-0">Integration with online booking channels to manage reservations and availability.</p>
+                                        </div>
+
+                                        <span class="badge bg-finance rounded-pill ms-auto">30</span>
+                                    </div>
+
+                                    <img src="images/topics/undraw_Finance_re_gnv2.png" class="custom-block-image img-fluid" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-12 mt-lg-3">
+                            <div class="custom-block custom-block-overlay">
+                                <div class="d-flex flex-column h-100">
+                                    <img src="images/businesswoman-using-tablet-analysis.jpg" class="custom-block-image img-fluid" alt="">
+
+                                    <div class="custom-block-overlay-text d-flex">
+                                        <div>
+                                            <h5 class="text-white mb-2">Channel Management:</h5>
+
+                                            <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint animi necessitatibus aperiam repudiandae nam omnis</p>
+
+                                            <a href="#" class="btn custom-btn mt-2 mt-lg-3">Learn More</a>
+                                        </div>
+
+                                        <span class="badge bg-finance rounded-pill ms-auto">25</span>
+                                    </div>
+
+                                    <div class="social-share d-flex">
+                                        <p class="text-white me-4">Share:</p>
+
+                                        <ul class="social-icon">
+                                            <li class="social-icon-item">
+                                                <a href="#" class="social-icon-link bi-twitter"></a>
+                                            </li>
+
+                                            <li class="social-icon-item">
+                                                <a href="#" class="social-icon-link bi-facebook"></a>
+                                            </li>
+
+                                            <li class="social-icon-item">
+                                                <a href="#" class="social-icon-link bi-pinterest"></a>
+                                            </li>
+                                        </ul>
+
+                                        <a href="#" class="custom-icon bi-bookmark ms-auto"></a>
+                                    </div>
+
+                                    <div class="section-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+		<footer class="site-footer section-padding">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-12 mb-4 pb-2">
+                        <a class="navbar-brand mb-2" href="index.html">
+                            <i class="bi-back"></i>
+                            <span>Logo</span>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <h6 class="site-footer-title mb-3">Resources</h6>
+
+                        <ul class="site-footer-links">
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Home</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">How it works</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">FAQs</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
+                        <h6 class="site-footer-title mb-3">Information</h6>
+
+                        <p class="text-white d-flex mb-1">
+                            <a href="tel: 305-240-9671" class="site-footer-link">
+                                305-240-9671
+                            </a>
+                        </p>
+
+                        <p class="text-white d-flex">
+                            <a href="mailto:info@company.com" class="site-footer-link">
+                                info@company.com
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
+                        <p class="copyright-text mt-lg-5 mt-4">Copyright © 2022-23 Company Name . All rights reserved.
+                        <br><br>Design By: <a rel="nofollow" href="https://ibrahimbhat.netlify.app/" target="_blank">Ibrahim Bhat</a></p>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>
