@@ -21,7 +21,6 @@
         <link href="css/bootstrap-icons.css" rel="stylesheet">
 
         <link href="css/templatemo-topic-listing.css" rel="stylesheet">      
-
     </head>
     
     <body id="top">
@@ -432,6 +431,64 @@ Reporting and Analytics:</p>
 
             </section>
 
+
+            <!-- image slider -->
+                <div id="imageSlider" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./images/slider imges/account details.jpg" class="d-block w-100" alt="Image 1">
+        </div>
+        <div class="carousel-item">
+            <img src="./images/slider imges/add booking.jpg" class="d-block w-100" alt="Image 2">
+        </div>
+         <div class="carousel-item">
+            <img src="./images/slider imges/add gallery to website.jpg" class="d-block w-100" alt="Image 3 ">
+        </div> <div class="carousel-item">
+            <img src="./images/slider imges/add or edit .jpg" class="d-block w-100" alt="Image 4">
+        </div> <div class="carousel-item">
+            <img src="./images/slider imges/add room.jpg"="d-block w-100" alt="Image 5">
+        </div> <div class="carousel-item">
+            <img src="./images/slider imges/analytics.jpg" class="d-block w-100" alt="Image 6">
+        </div> <div class="carousel-item">
+            <img src="./images/slider imges/Blogs.jpg" class="d-block w-100" alt="Image 7">
+        </div> <div class="carousel-item">
+            <img src="./images/slider imges/booking list.jpg" class="d-block w-100" alt="Image 8">
+        </div> <div class="carousel-item">
+            <img src="./images/slider imges/calendar.jpg" class="d-block w-100" alt="Image 9">
+        </div> <div class="carousel-item">
+            <img src="./images/slider imges/change checkinout.jpg" class="d-block w-100" alt="Image 10">
+        </div> <div class="carousel-item">
+            <img src="./images/slider imges/dashboard.jpg" class="d-block w-100" alt="Image 11">
+        </div> <div class="carousel-item">
+            <img src="./images/slider imges/edit booking data.jpg" class="d-block w-100" alt="Image 12">
+        </div> <div class="carousel-item">
+            <img src="./images/slider imges/ledger .jpg" class="d-block w-100" alt="Image 17">
+        <!-- <div class="carousel-item1">
+                <img src="./images/slider imges/many options.jpg" class="d-block w-100" alt="Image 13">
+            </div>
+            <div class="carousel-item1">
+                <img src="./images/slider imges/mobile responsive.jpg" class="d-block w-100" alt="Image 14">
+            </div>
+            <div class="carousel-item1"> -->
+                <img src="./images/slider imges/responsive.jpg" class="d-block w-100" alt="Image 15">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./images/slider imges/roomlist.jpg" class="d-block w-100" alt="Image 17">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#imageSlider" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#imageSlider" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+            <!-- image slider end -->
+
             <!-- services -->
             <section class="timeline-section section-padding" id="section_3">
                 <div class="section-overlay"></div>
@@ -690,6 +747,13 @@ Reporting and Analytics:</p>
         <script src="js/jquery.sticky.js"></script>
         <script src="js/click-scroll.js"></script>
         <script src="js/custom.js"></script>
+        <script>
+              document.addEventListener('DOMContentLoaded', function () {
+        new bootstrap.Carousel(document.getElementById('imageSlider'), {
+            interval: 2000 
+        });
+    });
+        </script>
 
     </body>
 </html>
